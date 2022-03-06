@@ -1,0 +1,77 @@
+
+body{
+    background:#0a0c1b;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+  }
+section{
+    border-radius: 25px;
+    align-items:center;
+    justify-content:center;
+padding-left:18px
+}
+
+.img{
+    background-image: url("https://i.pinimg.com/originals/0c/81/be/0c81be7baceba450e71b0aba61df57a2.jpg");
+    width:90%;
+    height:250px;
+    background-color: #9b50c9;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: inherit;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.content{
+    width:90%;
+    height:460px;
+    background: #1c1938; 
+    font-size:20px;
+    text-align:center;
+    padding-top:0;
+    color:#f9fafa;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.content>h2{
+margin-top:0px;
+padding-top:30px;
+}
+.content>p{
+    font-size:17px;
+    color: #76758b;
+    margin:5px;
+}
+p:nth-child(7){
+    font-weight:bold;
+    color: #f9fafa;
+    font-size:20px;
+  }
+p:nth-child(9){
+    font-weight:bold;
+    color: #f9fafa;
+    font-size:20px;
+  }
+p:nth-child(11){
+    font-weight:bold;
+    color: #f9fafa;
+    font-size:20px;
+  }
+p:nth-child(8){
+    font-size:15px;
+  }
+
+p:nth-child(10){
+    font-size:15px;
+  }
+  p:nth-child(12){
+    font-size:15px;
+  }
